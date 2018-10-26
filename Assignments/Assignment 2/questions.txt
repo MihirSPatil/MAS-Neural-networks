@@ -1,0 +1,11 @@
+1. What is the difference between competitive learning and Hebbian learning?
+R. For the Hebbian learning approach several output neurons could be active simultaneously, while for the competitive learning only a single output neuron is active. 
+
+2. What is the disadvantage of using unsupervised learning?
+R. The amount of training data that is required. 
+
+3. What is the sequence of events during the learning process? 
+R. 1. The NN is stimulated by an enviroment
+   2. The parameters of the NN are changed based on a stimulation
+   3. The NN responds in a new way to the environment because of the changes in the internal structure. 
+

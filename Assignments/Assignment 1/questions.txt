@@ -1,0 +1,12 @@
+1. What are the three basic elements of a neuronal model?
+- A set of synapses or connecting links with a weight value for each of them. 
+- An adder for summing the input signals. 
+- An activation function for limiting the amplitude of the output of a neuron. 
+
+2. What is the most common activation function? and why?
+- The sigmoid function. It is represented as a increasing function with graceful balance between linear and non-linear behavior. It assumes a continuous range of values from 0 to 1. It is also differentiable. 
+
+3. What are the rules that dictate the flow if signals in a signal-flow graph? 
+R1. A signal flows along a link only in the direction defined by the arrow on the link. 
+R2. A node signal equals the algebraic sum of all signals entering the pertinent node via incoming links. 
+R3. The signal at a node is transmitted to each outgoing link originating from that node, with the transmission being entirely of the transfer functions of the outgoing links.
