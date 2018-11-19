@@ -1,6 +1,9 @@
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
+import pandas as pd
+import numpy as np
+from sklearn.decomposition import PCA
 
 
 fleisch = pd.read_excel('Archive_files/Archiv/Fleisch.xls').astype(float)
@@ -29,7 +32,6 @@ wavelength = np.array(fleisch['nm'])[np.newaxis].T
 wavelength_2016 = np.array(skin['nm'])[np.newaxis].T
 
 
-from sklearn.decomposition import PCA
 
 def dataCleanup(data):
 
